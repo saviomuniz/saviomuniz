@@ -1,8 +1,8 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
+  title: 'Sávio Muniz',
   tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://saviomuniz.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -98,5 +98,8 @@ module.exports = {
         },
       },
     ],
+  ],
+  plugins: [
+    require.resolve('@cmfcmf/docusaurus-search-local')
   ],
 };
