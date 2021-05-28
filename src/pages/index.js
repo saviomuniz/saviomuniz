@@ -42,7 +42,7 @@ export default function Home() {
         <div>
           <div className={styles.ctas}>
             <Section img={"undraw_online_cv_qy9w"} title="RESUME" link="/resume"/>
-            <Section img={"undraw_typewriter_i8xd"} title="ARTICLES" link="/docs/intro"/>
+            <Section img={"undraw_typewriter_i8xd"} title="ARTICLES" link="/docs/health-improvement"/>
             <Section img={"undraw_Notebook_re_id0r"} title="JOURNAL" link="/blog"/>
           </div>
         </div>  

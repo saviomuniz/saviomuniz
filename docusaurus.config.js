@@ -23,7 +23,7 @@ module.exports = {
           label: 'Resume',
         },
         {
-          to: '/docs/intro',
+          to: '/docs/health-improvement',
           position: 'left',
           label: 'Articles'
         },
