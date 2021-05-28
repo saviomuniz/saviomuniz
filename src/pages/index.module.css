@@ -6,10 +6,51 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-align: center;
-  position: relative;
-  overflow: hidden;
+  padding: 5rem;  
+  width: 100%;
+}
+
+.containerHero {
+  max-width: 900px;
+}
+
+.ctas {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: bottom;
+  justify-content: center;
+}
+
+.ctaButton {
+  height: 3rem;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  padding: 5rem;
+}
+
+.sectionImg {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 2rem;
+  max-width: 300px;
+}
+
+.homeContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @media screen and (max-width: 966px) {
